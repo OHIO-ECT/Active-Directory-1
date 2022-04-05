@@ -102,6 +102,8 @@ the usual itsclass pw.
 
 -   Group Policy Management
 
+-   Resultant Set of Policy
+
 17. Open a Run dialog (Start Button -> Run) and type "MMC", click OK. This opens a blank MMC, File -> Add/Remove Snap-in... Presents a list of snap-ins to add to MMC. Select all the options on the list above then click on OK.
 \
 Before going further save the MMC choices so it is not necessary to rebuild the MMC snap-in list every time it is opened. Select File -> Save option, in the save box, select a file name for the console  (that's the name given what is being created). Select the DESKTOP as the location for where to save this console. This will provide an icon to click on for future uses of the MMC. Once saved close the MMC. The saved console should be on the desktop. Double click on the custom MMC and the snap-in list should appear just as it was left.
