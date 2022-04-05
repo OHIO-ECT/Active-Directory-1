@@ -148,6 +148,8 @@ Part of the merge process puts the Domain Admins group in the local machine Admi
 28. Open the properties of the "data" folder and to the "Security" tab. The domain group "Users (LAB\\Users)" is already listed and has several rights by default (like read). This gives read access by DEFAULT to all domain users. There are ways to remove this access, but it's beyond the scope of this lab at this time.
 
 29. Click on the "Edit..." button and add the two groups, Marketing and Sales. Highlight each group and give them "Full Control". This will allow members of those groups full rights (read/write etc.) to files/folders in the "data" directory. Press OK and/or Close to finish out the "data" folder properties and save the choices.
+\
+Because we set the rights using the AD group not to the specific user it will be MUCH easier to add more users to Sales and make sure they all have the same access. Otherwise the admin would have to go to each share/object and set up each user individually (big time waste and might screw it up!).
 
 ### Accessing Shares
 
