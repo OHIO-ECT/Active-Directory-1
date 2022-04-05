@@ -33,9 +33,9 @@ DNS is integral to the function of AD because of this each machine name **must b
 
 4.  Since this VM will be a server (directory services is a server service) you will need to assign it a static IP.
 \
-IP Address: 192.168.122.200
-Subnet mask: 255.255.255.0
-Gateway: 192.168.122.1
+IP Address: 192.168.122.200\
+Subnet mask: 255.255.255.0\
+Gateway: 192.168.122.1\
 DNS: 192.168.122.1 (Note: this will change after you install AD services).
 \
 Once the IP changes are made **make sure they work!** Ping the outside world and make sure you can resolve hostnames (`ping 8.8.8.8` and `ping google.com`).
