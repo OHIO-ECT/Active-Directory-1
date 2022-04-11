@@ -72,9 +72,9 @@ At this point all the basics of AD are up and running. In a large organization t
 
 ## Users and Groups
 
-13. User and Group creation is one of the first things needed after creating a new domain. *Use Active Directory Users and Computers* icon to open the MMC with the correct snap-in added. Add a user to the lab.com -> Users folder by right-clicking on the Users folder going to New -> User. *Set First name:* and *User logon name:* to "a-ducky". Password set to usual password.
+13. User and Group creation is one of the first things needed after creating a new domain. *Use Active Directory Users and Computers* icon to open the MMC with the correct snap-in added. Add a user to the lab.com -> Users folder by right-clicking on the Users folder going to New -> User. *Set First name:* and *User logon name:* to "a-ducky". Password set to usual password.\
 \
-**Note:** Prepending the "a-" to the username it denotes it as an "administrator equivalent" user. Set a password that's easy to remember (in this case use the itsclass password). **UN-** check "User must change password at next logon" option and **DO** check "Password never expires" option.
+**Note:** Prepending the "a-" to the username it denotes it as an "administrator equivalent" user. Set a password that's easy to remember (in this case use the itsclass password). **UN-** check "User must change password at next logon" option and **DO** check "Password never expires" option.\
 \
 **DO NOT** change the user Administrator password. That's the backdoor into the system in case there is a mistake!
 <br>
