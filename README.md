@@ -20,7 +20,7 @@
 
 ![][1]
 
-2.  Start Win2019 and Win10 VMs and wait for the desktops to appear.
+2.  Start Win2019 and Win10 VMs and wait for the desktops to appear or start it by clicking on Windows menu and searching for "Server Manager".
 <br>
 
 3.  On Win2019 the Server Manager is the center of Windows GUI admin functions. Start the Server Manager application by right-clicking on My Computer icon and selecting the Management choice from the context list. It's not uncommon for an "Installation Progress" window to open. This is informing the admin about package installation status. If this occurs select the Close button in the lower right corner.
