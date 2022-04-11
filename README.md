@@ -66,7 +66,7 @@ In server manager we can add "Roles" and "Features" to a server. Roles tend to b
 11. At *Prerequisites Check* select Install. This could take a while depending on the speed of the VM and conditions and there is a required reboot and a long wait while it sets everything up.
 <br>
 
-12. Once rebooted and logged in, open the Start Menu, and use the search option to look for "Windows Administrative Tools". In the folder that opens note all of the entries that start with "Active Directory..." are new entries as well as the DNS entry. In addition, there new entries on the left-hand side bar of the Server Manager dialog called *AD DS*.
+12. Once rebooted and logged in, open the Start Menu, and use the search option to look for "Windows Administrative Tools" (a set of pre-set MMC snap-ins). In the folder that opens note all of the entries that start with "Active Directory..." are new entries as well as the DNS entry. In addition, there new entries on the left-hand side bar of the Server Manager dialog called *AD DS*.
 \
 At this point all the basics of AD are up and running. In a large organization there might be a dozen to several dozen Domain Controllers (DC) that work interchangeably for backup or latency reasons.
 
