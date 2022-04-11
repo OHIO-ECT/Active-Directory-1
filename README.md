@@ -84,7 +84,7 @@ At this point all the basics of AD are up and running. In a large organization t
 
 15. Normally everyday users aren't in the Domain Admins group. It's too dangerous to have that much power in an account they could accidentally destroy half the domain before they realize what they are doing. This is why we make "a-" accounts and then only use them when we NEED and administrative function.
 \
-Go and create a two normal user accounts (Sally Smith, smiths and Bob Jones, jonesb). Create two different groups (a security group is fine). One called "Marketing" and one called "Sales". Put "smiths" in the Marketing group and "jonesb" in the Sales group. Set the passwords to
+Go and create a two normal user accounts (Sally Smith, username:smiths and Bob Jones, username: jonesb). Create two different groups (a security group is fine). One called "Marketing" and one called "Sales". Put "smiths" in the Marketing group and "jonesb" in the Sales group. Set the passwords to
 the usual itsclass pw.
 
 ## Using Administrative Tools
