@@ -44,7 +44,7 @@ Once the IP changes are made **make sure they work!** Ping the outside world and
 
 In server manager we can add "Roles" and "Features" to a server. Roles tend to be BIG things like DHCP Servers and DNS servers and AD Controllers. Features tend to be smaller things like .NET installation or telnet client installations.
 
-5.  In the upper right select the *Manage* menu and then *Add Roles and Features*. Work through the GUI to add the "Active Directory Domain Services" Role. Don't add any features at this time.
+5.  In the upper right select the *Manage* menu and then *Add Roles and Features*. Work through the GUI to add the "Active Directory Domain Services" Role. Don't add any OTHER features at this time.
 <br>
 
 6.  As part of the Installation Progress the option to "Promote this server to a domain controller" will be presented. Click on it to start the wizard to configure the rest of the AD forest.
