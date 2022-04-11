@@ -116,7 +116,7 @@ Before going further save the MMC choices so it is not necessary to rebuild the 
 19. Remember without DNS AD won't work! Double click on the Network icon on the desktop. One of the ethernet cards, usually named "Ethernet \<number\>" will the active NIC (no red X).
 <br>
 
-20. Right-Click and select "Properties", then select "Internet Protocol Version 4 (TCP/IPv4)" and click on the "Properties" button. This sub-sub-sub-(far too many sub)-properties window allows the configuration of IP in Windows. Change the BOTTOM radio-button option to, "Use the following DNS server addresses:". Preferred DNS and Alternate DNS servers will un-gray at this point.
+20. Open Network icon on desktop, Right-Click on appropreate NIC, select "Properties", then select "Internet Protocol Version 4 (TCP/IPv4)" and click on the "Properties" button. This sub-sub-sub-(far too many sub)-properties window allows the configuration of IP in Windows. Change the BOTTOM radio-button option to, "Use the following DNS server addresses:". Preferred DNS and Alternate DNS servers will un-gray at this point.
 \
 To work with the domain the Windows 10 box must point only to DNS servers that understand the lab.com AD domain. **ONLY** fill in only the Primary DNS server with 192.168.122.200 (the AD controller and DNS server). Press on OK to all the windows until they are closed and then close the Network Connections window. See picture below.
 
