@@ -31,7 +31,7 @@ DNS is integral to the function of AD because of this each machine name **must b
 
 ## Static IP Address
 
-4.  Since this VM will be a server (directory services is a server service) you will need to assign it a static IP.
+4.  Since this VM will be a server (directory services is a server service) you will need to assign it a static IP. Use previous knowledge or have a gander at YouTube for details on this step.
 
     -   IP Address: `192.168.122.200`
     -   Subnet mask: `255.255.255.0`
@@ -42,8 +42,7 @@ Once the IP changes are made **make sure they work!** Ping the outside world and
 
 ## AD Forest Creation
 
-In server manager we can add "Roles" and "Features" to a server. Roles tend to be BIG things like DHCP Servers and DNS servers and AD Controllers. Features tend to be smaller things like .NET installation
-or telnet client installations.
+In server manager we can add "Roles" and "Features" to a server. Roles tend to be BIG things like DHCP Servers and DNS servers and AD Controllers. Features tend to be smaller things like .NET installation or telnet client installations.
 
 5.  In the upper right select the *Manage* menu and then *Add Roles and Features*. Work through the GUI to add the "Active Directory Domain Services" Role. Don't add any features at this time.
 <br>
