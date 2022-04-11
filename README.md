@@ -31,7 +31,7 @@ DNS is integral to the function of AD because of this each machine name **must b
 
 ## Static IP Address
 
-4.  Since this VM will be a server (directory services is a server service) you will need to assign it a static IP. Use previous knowledge or have a gander at YouTube for details on this step.
+4.  Since this VM will be a server (directory services is a server service) you will need to assign it a static IP. Right-Click Network icon on the desktop, select "Properties", select "Internet Protocol Version 4 (TCP/IPv4)" and click on the "Properties" button. This sub-sub-sub-(far too many sub)-properties window allows the configuration of IP in Windows. Change the BOTTOM radio-button option to, "Use the following DNS server addresses:". Preferred DNS and Alternate DNS servers will un-gray at this point. 
 
     -   IP Address: `192.168.122.200`
     -   Subnet mask: `255.255.255.0`
