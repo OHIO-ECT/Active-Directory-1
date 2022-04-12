@@ -31,7 +31,7 @@ DNS is integral to the function of AD because of this each machine name **must b
 
 ## Static IP Address
 
-4.  Since this VM will be a server (directory services is a server service) you will need to assign it a static IP. Open Network icon on the desktop, right-click on the appropreate NIC, select "Properties", then select "Internet Protocol Version 4 (TCP/IPv4)" and click on the "Properties" button. This sub-sub-sub-(far too many sub)-properties window allows the configuration of IP in Windows. Change the BOTTOM radio-button option to, "Use the following DNS server addresses:". Preferred DNS and Alternate DNS servers will un-gray at this point.  select "Properties", select "Internet Protocol Version 4 (TCP/IPv4)" and click on the "Properties" button. This sub-sub-sub-(far too many sub)-properties window allows the configuration of IP in Windows. Change the BOTTOM radio-button option to, "Use the following DNS server addresses:". Preferred DNS and Alternate DNS servers will un-gray at this point. Review the Tech Nugget for more help. https://youtu.be/Vu1CeJIXMnk
+4.  Since this VM will be a server (directory services is a server service) you will need to assign it a static IP. Open Network icon on the desktop, right-click on the appropreate NIC, select "Properties", then select "Internet Protocol Version 4 (TCP/IPv4)" and click on the "Properties" button. This sub-sub-sub-(far too many sub)-properties window allows the configuration of IP in Windows. Change the BOTTOM radio-button option to, "Use the following DNS server addresses:". Preferred DNS and Alternate DNS servers will un-gray at this point.  select "Properties", select "Internet Protocol Version 4 (TCP/IPv4)" and click on the "Properties" button. This sub-sub-sub-(far too many sub)-properties window allows the configuration of IP in Windows. Change the BOTTOM radio-button option to, "Use the following DNS server addresses:". Preferred DNS and Alternate DNS servers will un-gray at this point. Review the [Tech Nugget - N0.6 - Basic Diag Tools - NIC Config] for more help.
 
     -   IP Address: `192.168.122.200`
     -   Subnet mask: `255.255.255.0`
@@ -189,6 +189,7 @@ Note: "\\\\" has a specific pronunciation in IT. Backslashes \\ are called a "wh
 
 35. AD GPOs are in the next lab. They are the BEST part of Active  Directory!
 
+[Tech Nugget - N0.6 - Basic Diag Tools - NIC Config]: https://youtu.be/Vu1CeJIXMnk 
 [1]: images/pic1.png
 [2]: images/pic2.png
 [3]: images/pic3.png
