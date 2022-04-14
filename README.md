@@ -97,7 +97,7 @@ the usual itsclass pw.
 
 -   Event Viewer (Local)
 
--   Windows Firewall with Advanced Security on Local Computer
+-   Windows Defender Firewall with Advanced Security on Local Computer
 
 -   Group Policy Management
 
